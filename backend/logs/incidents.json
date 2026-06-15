@@ -1,0 +1,18 @@
+[
+    {
+        "timestamp": "2026-06-10 23:22:06",
+        "filename": "LJ001-0001.wav",
+        "prediction": "REAL",
+        "confidence": 0.87,
+        "threat_score": 15,
+        "severity": "SAFE"
+    },
+    {
+        "timestamp": "2026-06-10 23:22:20",
+        "filename": "LJ001-0005_gen.wav",
+        "prediction": "FAKE",
+        "confidence": 0.89,
+        "threat_score": 80,
+        "severity": "HIGH"
+    }
+]

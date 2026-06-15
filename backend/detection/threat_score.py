@@ -115,6 +115,10 @@ def analyse_voice(file_path: str, prediction: str, confidence: float) -> dict:
     """
     threat  = calculate_threat_score(prediction, confidence)
     explain = generate_explainability(file_path, prediction)
+    if prediction == "FAKE":
+    threat_type = "AI Voice Clone"
+else:
+    threat_type = "Authentic Human Voice"
 
     return {
         "prediction":   prediction,

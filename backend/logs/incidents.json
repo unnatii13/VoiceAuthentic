@@ -14,5 +14,23 @@
         "confidence": 0.89,
         "threat_score": 80,
         "severity": "HIGH"
+    },
+    {
+        "timestamp": "2026-06-17 10:36:36",
+        "filename": "LJ001-0010.wav",
+        "prediction": "REAL",
+        "confidence": 0.82,
+        "threat_score": 15,
+        "severity": "SAFE",
+        "threat_type": "Authentic Human Voice"
+    },
+    {
+        "timestamp": "2026-06-23 17:50:13",
+        "filename": "LJ001-0031.wav",
+        "prediction": "REAL",
+        "confidence": 0.9,
+        "threat_score": 5,
+        "severity": "SAFE",
+        "threat_type": "Authentic Human Voice"
     }
 ]

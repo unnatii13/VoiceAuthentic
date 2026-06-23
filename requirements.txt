@@ -1,4 +1,11 @@
-numpy==2.4.6
-scipy==1.17.1
+fastapi
+uvicorn
+python-multipart
+numpy
+scipy
 matplotlib
 librosa
+pandas
+joblib
+scikit-learn
+xgboost
